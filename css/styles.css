@@ -74,7 +74,25 @@ body {
     .link:active {
         color: #404bbf;
     }
-    
+    .header-top {
+        justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: var(--white, #fff);  
+      }  
+  .container-top {
+  display: flex;
+  justify-content: space-between;
+  width: 1158px;
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
+  }  
+  .top-nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-left: 347px;
+  }  
     .contacts {
         font-style: normal;
     }
