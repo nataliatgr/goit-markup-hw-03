@@ -8,6 +8,9 @@ button {
     margin-left:  
     margin-right:  
     }
+    .img {
+        display: block;
+    }
 .container-top {
         display: flex;
     }
