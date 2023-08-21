@@ -58,10 +58,7 @@ body {
         padding-top: 24px;
         padding-bottom: 24px;
     }
-    .link {
-    text-decoration: none;
-    color: #434455;
-    }
+
     .link-nav-link {
         color: #2e2f42;
     }
@@ -94,6 +91,14 @@ body {
     .order-button:focus {
         background-color: #404BBF;
     }
+    ul {
+        list-style-type: none;
+        font-style: normal;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        padding-left: 0;
+        }
 .hero {
 font-family: Roboto;
 weight: Bold;
