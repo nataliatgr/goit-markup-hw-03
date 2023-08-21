@@ -3,6 +3,7 @@ button {
 }
 .container { 
     width: 1158px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px; 
     margin-left:  
@@ -138,7 +139,7 @@ padding-bottom: 188px;
         gap: 24px;
     }
     .advantages-item {
-        width: calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 72px) / 4));
 
     }
     .advantages-item-header {
@@ -167,6 +168,8 @@ padding-bottom: 188px;
 }
 .our-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
     }
 .our-team-header {
     font-size: 36px;
@@ -175,9 +178,20 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+.our-team-list {
+    display: flex;
+    gap: 24px;
 }
 .our-team-member {
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4));
+    border-radius: 0px 0px 4px 4px;
+}
+.marking {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .team {
     font-weight: 500;
@@ -185,12 +199,15 @@ padding-bottom: 188px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
    }
 .team-product {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 .our-team-header {
     font-size: 36px;
