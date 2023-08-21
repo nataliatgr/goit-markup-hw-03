@@ -95,15 +95,18 @@ body {
         background-color: #404BBF;
     }
 .hero {
-    font-family: Roboto;
+font-family: Roboto;
 weight: Bold;
 background-color: #2e2f42;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 2%;
 line-height: 60px;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 .hero-header {
+    max-width: 496px;
     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
@@ -119,6 +122,27 @@ line-height: 60px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         text-align: center;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .advantages {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .advantages-list {
+        display: flex;
+        gap: 24px;
+    }
+    .advantages-item {
+        width: calc((100% - 72px) / 4);
+
+    }
+    .advantages-item-header {
+        margin-bottom: 8px;
     }
 .advantages-section {
     font-family: Roboto;
