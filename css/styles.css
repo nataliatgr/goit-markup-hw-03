@@ -130,6 +130,9 @@ padding-bottom: 188px;
         border-radius: 4px;
         cursor: pointer;
     }
+    h2 {
+        .visually-hidden;
+    }
     .advantages {
         padding-top: 120px;
         padding-bottom: 120px;
