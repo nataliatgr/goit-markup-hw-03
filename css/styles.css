@@ -189,8 +189,7 @@ padding-bottom: 188px;
     }
     .main-list {
         display: flex;
-        gap: 24px;
-        width: calc((100% - 72px) / 4);
+        gap: 24px;        
     }
 .advantages-list {
     font-family: Roboto;
@@ -207,6 +206,7 @@ padding-bottom: 188px;
     margin-bottom: 0;
     margin-left: 0;
     padding-left: 0;
+    width: calc((100% - 72px) / 4);
 }
 .advantages-item-header {
     font-weight: 500;
