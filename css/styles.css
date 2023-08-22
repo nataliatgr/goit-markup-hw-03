@@ -98,11 +98,9 @@ body {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
   }  
-  .top-nav {
+  .upper-nav {
   display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  margin-left: 347px;
+  align-items: center;
   }  
     .contacts {
         font-style: normal;
