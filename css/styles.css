@@ -139,6 +139,9 @@ line-height: 60px;
 padding-top: 188px;
 padding-bottom: 188px;
 }
+.hero-header .order-button {
+    text-align: center;
+}
 .hero-header {
     max-width: 496px;
     color: #ffffff;
