@@ -198,7 +198,12 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;    
 }
 .advantages-item {
-
+    list-style-type: none;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
 }
 .advantages-item-header {
     font-weight: 500;
