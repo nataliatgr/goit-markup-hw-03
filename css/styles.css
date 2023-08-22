@@ -67,7 +67,7 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding-top: 24px;
-        padding-bottom: 24px;        
+        padding-bottom: 24px; 
     }
 .contacts-top {
     display: flex;
@@ -102,6 +102,13 @@ body {
   display: flex;
   align-items: center;
   }  
+  .contact-nav {
+    display: flex;
+    gap: 40px;
+  }
+  .link-nav-link {
+    padding: 24px 0;    
+  }
     .contacts {
         font-style: normal;
     }
