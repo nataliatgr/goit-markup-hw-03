@@ -20,7 +20,7 @@ button {
     }
     .top-nav {
         display: flex;
-        align-items: center;
+        align-items: center;        
     }
     .contact-nav {
         display: flex;
