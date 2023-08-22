@@ -49,6 +49,9 @@ body {
         letter-spacing: 0.03em;
         margin-right: 76px;        
         } 
+        .link-logotype-top {
+            margin-right: 76px;
+        }
         .upper {
             display: flex;
             gap: 40px;
@@ -195,7 +198,7 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;    
 }
 .advantages-item {
-    
+
 }
 .advantages-item-header {
     font-weight: 500;
