@@ -15,9 +15,9 @@ button {
     img {
         display: block;
     }
-.container-top {
+    .container-top {
         display: flex;
-    }
+    }    
     .top-nav {
         display: flex;
         align-items: center;        
@@ -91,13 +91,13 @@ body {
   flex-shrink: 0;
   background: var(--white, #fff);  
       }  
-  .container-top {
-  display: flex;
-  justify-content: space-between;
-  width: 1158px;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
-  }  
+      .container-top {
+        display: flex;
+        justify-content: space-between;
+        width: 1158px;
+        border-bottom: 1px solid var(--cornflower, #e7e9fc);
+        background: var(--white, #fff);
+        }
   .upper-nav {
   display: flex;
   align-items: center;
