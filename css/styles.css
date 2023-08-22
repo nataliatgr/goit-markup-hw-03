@@ -179,9 +179,6 @@ padding-bottom: 188px;
         padding-top: 120px;
         padding-bottom: 120px;
     }
-    .advantages-item-header {
-        margin-bottom: 8px;
-    }
     .main-list {
         display: flex;
         gap: 24px;
@@ -190,7 +187,7 @@ padding-bottom: 188px;
     font-family: Roboto;
     color: #2e2f42;
     font-weight: 500;
-    font-size: 20px
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;    
 }
@@ -200,6 +197,7 @@ padding-bottom: 188px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .advantages-item-text {
     font-size: 16px;
