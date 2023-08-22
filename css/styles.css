@@ -190,6 +190,7 @@ padding-bottom: 188px;
     .main-list {
         display: flex;
         gap: 24px;
+        width: calc((100% - 72px) / 4);
     }
 .advantages-list {
     font-family: Roboto;
