@@ -309,12 +309,20 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    margin: 0;
 }
 .app {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455; 
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+h3{
+    margin: 0;
 }
 .footer-app {
     background-color: #2e2f42;
@@ -331,6 +339,7 @@ padding-bottom: 188px;
 }
 .link-logotype {
     display: inline-block;
+    margin: 0;
 }
 .acsent-logo {
     color: #f4f4fd;
@@ -345,5 +354,5 @@ padding-bottom: 188px;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 0;
+    margin: 0;    
 }
